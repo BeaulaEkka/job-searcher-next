@@ -35,6 +35,7 @@ export type ApplicationDraft = {
   jobId: string;
   title: string;
   createdAt: string;
+  jobUrl: string;
   status: "draft" | "reviewed" | "applied" | "rejected" | "interview" | "offer";
   tailoredResumeMarkdown: string;
   coverLetterMarkdown: string;
