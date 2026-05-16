@@ -31,6 +31,7 @@ export type JobMatch = Job & {
 
 export type ApplicationDraft = {
   id: string;
+  company: string;
   jobId: string;
   createdAt: string;
   status: "draft" | "reviewed" | "applied" | "rejected" | "interview" | "offer";
