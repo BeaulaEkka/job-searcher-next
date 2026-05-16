@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
-import { getOpenAI, model } from "@/lib/openai";
+import { getOpenAI, model } from "../../../lib/openai";
 
 const schema = z.object({ resumeText: z.string().min(50) });
 
