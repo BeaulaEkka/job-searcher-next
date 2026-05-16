@@ -1,4 +1,6 @@
-import type { Job, JobMatch, ResumeProfile } from "@/types";
+
+
+import { Job, JobMatch, ResumeProfile } from "../types";
 
 const stopWords = new Set([
   "and", "the", "for", "with", "you", "your", "are", "our", "this", "that", "from", "will", "have", "has", "het", "een", "van", "met", "voor", "wij", "jij", "de"
